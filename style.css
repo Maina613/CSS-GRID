@@ -1,0 +1,29 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 15px;
+    width: calc(5 * 235px + 4 * 15px);
+    margin: auto;
+}
+
+.item {
+    background-color: rgb(252, 254, 252);
+    color: #0a0a0a;
+    font-size: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 235px;
+    height: 322px;
+    font-family: 'Ouroboros';
+}
+
+body {
+    background-color: #1d1d1d;
+}
+
+@font-face {
+    font-family: Ouroboros-Regular;
+    src: url("/font/Ouroboros-Regular.otf");
+}
